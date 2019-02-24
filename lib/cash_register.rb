@@ -26,9 +26,9 @@ class CashRegister
       @calculations = (price * discount)/100
       @total -= @calculations
       return "After the discount, your total is #{@total}!"
-    else 
+    else
       return "Sorry, There is not discount to apply."
-      
+
     end
   end
 
