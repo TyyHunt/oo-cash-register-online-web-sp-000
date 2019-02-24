@@ -1,6 +1,6 @@
 class CashRegister
   attr_accessor :total
-  NEW = 0
+  ::NEW = 0
 
   @@items = []
 
